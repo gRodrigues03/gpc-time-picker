@@ -1,0 +1,36 @@
+{
+  "name": "streamlit_capsules",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@streamlit/component-v2-lib": "^0.2.0"
+  },
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.3.16",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "webpack": "^5.104.1"
+  },
+  "scripts": {
+    "start": "vite start --host --port 3001 --cors",
+    "build": "vite build --emptyOutDir",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "."
+}
