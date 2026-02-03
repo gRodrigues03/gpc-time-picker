@@ -12,7 +12,7 @@ export default function onRender(args: FrontendRendererArgs): void {
     parentElement.appendChild(label);
 
     const input = document.createElement("input")
-    label.className = 'cc-input'
+    input.className = 'cc-input'
     input.value = data.default;
     parentElement.appendChild(input)
 
