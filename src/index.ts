@@ -4,7 +4,6 @@ import {
 
 export default function onRender(args: FrontendRendererArgs): void {
     const { data, parentElement, setStateValue } = args;
-    parentElement.className='emplinsel'
 
     const label = document.createElement("p");
     label.className = 'cc-label'
